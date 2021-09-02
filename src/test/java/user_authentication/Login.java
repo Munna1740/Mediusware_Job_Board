@@ -10,6 +10,7 @@ public class Login {
 		WebDriver driver = BaseClass.getDriver();
 		
 		
+		System.out.println(driver.getCurrentUrl());
 		//click on login button
 		WebElement login_button = driver.findElement(By.xpath("//*[@id=\"navbarCollapse\"]/ul/li[3]/a"));
 		login_button.click();
